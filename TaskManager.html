@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Task Manager Web Application Project</title>
+</head>
+<body>
+
+  <h1>Task Manager</h1>
+    <div id="task-manager">
+    </div>
+
+    <form id="myForm">
+        <input type="text" id="inputTask" label="Task">
+
+        <select id="prioritySelect">
+            <option value="high">High</option>
+            <option value="medium">Medium</option>
+            <option value="low">Low</option>
+          </select>
+
+        <input type="checkbox" id="importantCheckbox" value="Important">
+        <label for="importantCheckbox">Important</label>
+
+        <button id="submitButton" type="submit">Add Task</button>
+      </form>
+
+      <ul id="taskList"></ul>
+      <link rel="stylesheet" href="taskStyles.css" />
+      <script src="TaskManagerWebApp.js" defer></script>
+</body>
+</html>
+  

@@ -1,0 +1,111 @@
+#taskList {
+    list-style-type: none; /* Remove default list bullets */
+    padding: 0;
+}
+
+#taskList li {
+    padding: 2px;
+    margin: 5px 0;
+    color: #16084c;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 16px;
+} 
+
+ body {
+    background: rgb(178, 175, 235);
+    max-width: 1020px;
+    min-width: 420px;
+    margin: 0px auto;
+ }
+
+ h1 {
+   text-align: center;
+   color: #342b58;
+   font-family: Verdana, Geneva, sans-serif;
+   font-size: 30px;
+   font-weight: bold;
+ }
+ 
+ form {
+   max-width: 800px;
+   margin: 0 auto;
+   padding: 20px;
+   background-color: #f4faa7;
+   border-radius: 5px;
+ }
+
+ 
+ input#inputTask {
+   margin-bottom: 1px;
+   width:  400px;
+   font-weight: bold;
+   background: rgb(219, 237, 242);
+   padding: 5px;
+   border: 2px solid rgb(14, 14, 21);
+   border-radius: 5px;
+ }
+
+ input#importantCheckbox {
+   vertical-align: middle;
+   position: relative;
+   height: 20px;
+   width: 20px;
+   margin-left: 25px;
+   margin-right: 1px;
+   padding-left: 25px;
+   font-family: Verdana, Geneva, sans-serif;
+   font-size: 14px;
+   background-color: "yellow";
+   border-radius: 5px;
+ }
+ 
+ label {
+   display: inline-block;
+   margin-left: 1px;
+   margin-right: 25px;
+   margin-bottom: 1px;
+   background: rgb(255, 214, 30);
+   padding: 8px;
+   border-radius: 5px;
+   border: 2px solid rgb(101, 83, 27);
+   font-family: Verdana, Geneva, sans-serif;
+   font-size: 12px;
+   font-weight: bold;
+   color: rgb(21, 20, 20);
+  }
+
+  select#prioritySelect {
+   position: relative;
+   font-family: Verdana, Geneva, sans-serif;
+   text-align: center;
+   font-size: 14px;
+   padding: 3px;
+   border-radius: 5px;
+   background-color: rgb(105, 175, 246);
+
+  }
+ 
+ button#submitButton {
+   margin-bottom: 1px;
+   background: rgb(45, 153, 153);
+   padding: 5px;
+   border: 2px solid rgb(27, 34, 26);
+   border-radius: 5px;
+   font-family: Verdana, Geneva, sans-serif;
+   font-size: 14px;
+   font-weight: bold;
+   color: rgb(4, 4, 4)
+ }
+
+
+ button#delete-button {
+   margin-bottom: 1px;
+   margin-left: 5px;
+   background: rgb(199, 14, 14);
+   padding: 5px;
+   border-radius: 5px;
+   border: 2px solid rgb(27, 34, 26);
+   font-family: Verdana, Geneva, sans-serif;
+   font-size: 14px;
+   color: rgb(24, 20, 20)
+ }
